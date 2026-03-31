@@ -151,6 +151,104 @@ paths:
       description: Create a new user.
       x-stoplight:
         id: qms7itsltqh0c
+  '/users/{Opposite}/Kite/[opposite]/Lion/(Mumbai)/Tenants/"2009"':
+    parameters:
+      - schema:
+          type: string
+        name: Opposite
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: Opposite
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: Opposite
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: Opposite
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: Opposite
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: Opposite
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: Opposite
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: Opposite
+        in: path
+        required: true
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses: {}
+      operationId: 'get-users-Opposite-Kite-[opposite]-Lion-(Mumbai)-Tenants-2009'
+      x-stoplight:
+        id: z00wkgqsu80sb
+    trace:
+      summary: Your TRACE endpoint
+      tags: []
+      responses: {}
+      operationId: 'trace-users-Opposite-Kite-[opposite]-Lion-(Mumbai)-Tenants-2009'
+      x-stoplight:
+        id: 5dxs5okchszgn
+    head:
+      summary: Your HEAD endpoint
+      tags: []
+      responses: {}
+      operationId: 'head-users-Opposite-Kite-[opposite]-Lion-(Mumbai)-Tenants-2009'
+      x-stoplight:
+        id: 9nato6g4f9k8d
+    delete:
+      summary: Your DELETE endpoint
+      tags: []
+      responses: {}
+      operationId: 'delete-users-Opposite-Kite-[opposite]-Lion-(Mumbai)-Tenants-2009'
+      x-stoplight:
+        id: vknu2djggo1ru
+    patch:
+      summary: Your PATCH endpoint
+      tags: []
+      responses: {}
+      operationId: 'patch-users-Opposite-Kite-[opposite]-Lion-(Mumbai)-Tenants-2009'
+      x-stoplight:
+        id: kj3fc9pmif47a
+    options:
+      summary: Your OPTIONS endpoint
+      tags: []
+      responses: {}
+      operationId: 'options-users-Opposite-Kite-[opposite]-Lion-(Mumbai)-Tenants-2009'
+      x-stoplight:
+        id: sf9mabhijoanb
+    post:
+      summary: Your POST endpoint
+      tags: []
+      responses: {}
+      operationId: 'post-users-Opposite-Kite-[opposite]-Lion-(Mumbai)-Tenants-2009'
+      x-stoplight:
+        id: ap20fv9cc7y1b
+    put:
+      summary: Your PUT endpoint
+      tags: []
+      responses: {}
+      operationId: 'put-users-Opposite-Kite-[opposite]-Lion-(Mumbai)-Tenants-2009'
+      x-stoplight:
+        id: btfovkxt6xqzl
 components:
   schemas:
     User:
