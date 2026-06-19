@@ -11,6 +11,16 @@ paths:
   '/users/{userId}':
     parameters:
       - schema:
+          type: string
+        name: userId
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: userId
+        in: path
+        required: true
+      - schema:
           type: integer
         name: userId
         in: path
@@ -96,6 +106,20 @@ paths:
         description: Patch user properties to update.
       x-stoplight:
         id: 3sxngg114zhke
+    delete:
+      summary: Your DELETE endpoint
+      tags: []
+      responses: {}
+      operationId: delete-users-userId
+      x-stoplight:
+        id: ttqtwizfrluv5
+    post:
+      summary: Your POST endpoint
+      tags: []
+      responses: {}
+      operationId: post-users-userId
+      x-stoplight:
+        id: 5n8i27ns284ef
   /user:
     post:
       summary: Create New User
@@ -152,6 +176,32 @@ paths:
       description: Create a new user.
       x-stoplight:
         id: qms7itsltqh0c
+  '/fghfjgkhljk/{fhjklk}/dfghjk/rgfhjkl12345679890-==0-09':
+    parameters:
+      - schema:
+          type: string
+        name: fhjklk
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: fhjklk
+        in: path
+        required: true
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses: {}
+      operationId: get-fghfjgkhljk-fhjklk-dfghjk-rgfhjkl12345679890-==0-09
+      x-stoplight:
+        id: qi8pi444e9bll
+    head:
+      summary: Your HEAD endpoint
+      tags: []
+      responses: {}
+      operationId: head-fghfjgkhljk-fhjklk-dfghjk-rgfhjkl12345679890-==0-09
+      x-stoplight:
+        id: 08ixit5wo0j86
 components:
   schemas:
     User:
